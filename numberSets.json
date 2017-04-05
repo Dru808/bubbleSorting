@@ -1,0 +1,19 @@
+{
+  "numberArrays" : [
+    {
+      "numberSet1": [2, 5, 1, 9, 3]
+    },
+    {
+      "numberSet2": [9, 5, 3, 6, 4]
+    },
+    {
+      "numberSet3": [6, 3, 8, 5, 1]
+    },
+    {
+      "numberSet4": [7, 4, 8, 1, 3]
+    },
+    {
+      "numberSet5": [6, 8, 4, 1, 7]
+    }
+  ]
+}
