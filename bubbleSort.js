@@ -3,25 +3,25 @@
 var numberSets = require('./numbersets.json').numberArrays;
 
 
-function bubbleSort(arr) {
+function bubbleSort(a) {
   var holder = null;
   var sorted = true;
 
-  for(var i = 0; i < arr.length; i++) {
-    if(arr[i] >= arr[i + 1]) {
-      holder = arr[i];
-      arr[i] = arr[i + 1];
-      arr[i + 1] = holder;
+  for(var i = 0; i < a.length; i++) {
+    if(a[i] >= a[i + 1]) {
+      holder = a[i];
+      a[i] = a[i + 1];
+      a[i + 1] = holder;
 
       sorted  = false;
     }
 
   if(sorted === false) {
-    bubbleSort(arr);
+    bubbleSort(a);
   }
 
   }
-  return arr;
+  return a;
 }
 
 module.exports = bubbleSort;
